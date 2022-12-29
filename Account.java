@@ -1,8 +1,8 @@
 package manasaCareerTuner;
 public class Account {
-	public long AccountNumber;
-	public double balance;
-	public String AccountHolder;
+	private long AccountNumber;
+	private double balance;
+	private String AccountHolder;
 
 	public Account(long accountNumber, double balance, String accountHolder) {
 		super();
